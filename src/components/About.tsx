@@ -1,6 +1,6 @@
 import styled from 'styled-components';
-import mahrukhImage from '/home/mnadeem/interface_dga/Tailgate/src/assets/mahrukh.jpg';
-import peachBackground from '/home/mnadeem/interface_dga/Tailgate/src/assets/peach_background.jpg';
+import mahrukhImage from '../assets/mahrukh.jpg';
+import peachBackground from '../assets/peach_background.jpg';
 import MyNavbar from './navbar';
 import { motion } from 'framer-motion'; // Import motion from Framer Motion
 

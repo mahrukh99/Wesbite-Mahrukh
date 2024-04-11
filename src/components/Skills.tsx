@@ -1,10 +1,10 @@
 import React from 'react';
-import nlp from "/home/mnadeem/interface_dga/Tailgate/src/assets/NLP.png"
-import mdimg from "/home/mnadeem/interface_dga/Tailgate/src/assets/model deployment.png"
-import webimg from "/home/mnadeem/interface_dga/Tailgate/src/assets/wb_logo.png"
-import ccimg from "/home/mnadeem/interface_dga/Tailgate/src/assets/cloud computing.png"
-import dsimg from "/home/mnadeem/interface_dga/Tailgate/src/assets/data science.png"
-import mlimg from "/home/mnadeem/interface_dga/Tailgate/src/assets/machine learning.png"
+import nlp from "../assets/NLP.png"
+import mdimg from "../assets/model deployment.png"
+import webimg from "../assets/wb_logo.png"
+import ccimg from "../assets/cloud computing.png"
+import dsimg from "../assets/data science.png"
+import mlimg from "../assets/machine learning.png"
 import styled from 'styled-components';
 import { motion } from "framer-motion";
 import MyNavbar from './navbar';

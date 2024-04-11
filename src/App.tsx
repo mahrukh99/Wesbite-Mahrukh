@@ -1,13 +1,11 @@
-
-import Home from '/home/mnadeem/interface_dga/Tailgate/src/components/Home.tsx';
 import { BrowserRouter, Routes, Route} from "react-router-dom";
 import { motion } from 'framer-motion'; // Import for animation
-import About from '/home/mnadeem/interface_dga/Tailgate/src/components/About.tsx';
+import Home from './components/Home';
+import About from './components/About';
 import Header from './components/Skills';
-import ProjectsComponent from '/home/mnadeem/interface_dga/Tailgate/src/components/Projects';
+import ProjectsComponent from './components/Projects';
 import ExploreAI from './components/ExploreAI';
 import UnderConstruction from './components/UnderConstruction';
-
 
 const variants = { // Define animation variants
   initial: { opacity: 0 },
