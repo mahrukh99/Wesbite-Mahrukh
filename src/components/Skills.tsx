@@ -1,48 +1,3 @@
-// import React from 'react';
-// import styled from 'styled-components';
-// import logo from "../assets/logo2.png";
-// import searchIcon from "../assets/MG.png"; // Assuming you have an image file for the magnifying glass icon
-
-// interface HeaderProps {}
-
-// const Header: React.FC<HeaderProps> = () => {
-//   return (
-//     <StyledHeader>
-//       <Logo src={logo} alt="Logo" />
-//       <SearchBar placeholder="Search..." />
-//     </StyledHeader>
-//   );
-// };
-
-// const StyledHeader = styled.header`
-//   display: flex;
-//   flex-direction: column;
-//   align-items: center;
-//   justify-content: center;
-//   padding: 1rem;
-//   height: 100vh; /* Make the header occupy the entire viewport height */
-// `;
-
-// const Logo = styled.img`
-//   width: 30%;
-//   height: auto;
-//   margin-bottom:5%;
-// `;
-
-// const SearchBar = styled.input`
-//   padding: 0.5rem 1rem;
-//   border: 1px solid navy;
-//   border-radius: 20px;
-//   margin-top: 1rem; /* Add margin-top to create space between logo and search bar */
-//   width:400px;
-//   background-image: url(${searchIcon});
-//   background-size: 20px; /* Adjust the size of the icon */
-//   background-position: 95% center; /* Adjust the position of the icon */
-//   background-repeat: no-repeat;
-// `;
-
-// export default Header;
-
 import React from 'react';
 import nlp from "/home/mnadeem/interface_dga/Tailgate/src/assets/NLP.png"
 import mdimg from "/home/mnadeem/interface_dga/Tailgate/src/assets/model deployment.png"
@@ -213,3 +168,49 @@ const Skills: React.FC = () => {
 };
 
 export default Skills;
+
+
+// import React from 'react';
+// import styled from 'styled-components';
+// import logo from "../assets/logo2.png";
+// import searchIcon from "../assets/MG.png"; // Assuming you have an image file for the magnifying glass icon
+
+// interface HeaderProps {}
+
+// const Header: React.FC<HeaderProps> = () => {
+//   return (
+//     <StyledHeader>
+//       <Logo src={logo} alt="Logo" />
+//       <SearchBar placeholder="Search..." />
+//     </StyledHeader>
+//   );
+// };
+
+// const StyledHeader = styled.header`
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   justify-content: center;
+//   padding: 1rem;
+//   height: 100vh; /* Make the header occupy the entire viewport height */
+// `;
+
+// const Logo = styled.img`
+//   width: 30%;
+//   height: auto;
+//   margin-bottom:5%;
+// `;
+
+// const SearchBar = styled.input`
+//   padding: 0.5rem 1rem;
+//   border: 1px solid navy;
+//   border-radius: 20px;
+//   margin-top: 1rem; /* Add margin-top to create space between logo and search bar */
+//   width:400px;
+//   background-image: url(${searchIcon});
+//   background-size: 20px; /* Adjust the size of the icon */
+//   background-position: 95% center; /* Adjust the position of the icon */
+//   background-repeat: no-repeat;
+// `;
+
+// export default Header;

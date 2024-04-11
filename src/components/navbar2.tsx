@@ -1,4 +1,3 @@
-import React from 'react';
 import styled from 'styled-components';
 import { useNavigate } from 'react-router-dom';
 
@@ -53,9 +52,6 @@ const MyNavbar2 = () => {
   };
 
 
-  const navigateToWebDev = () => {
-    navigate('WebDev');
-  };
 
 
   return (

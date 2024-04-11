@@ -16,11 +16,6 @@ const Section = styled(motion.section)`
   z-index: 1; /* Ensure the projects section appears above the background image */
 `;
 
-const Content = styled.div`
-  display: flex;
-  font-family: 'Comic Neue', cursive;
-`;
-
 const Header = styled.div`
   width: 100%;
   text-align: center;
@@ -111,10 +106,13 @@ const ProjectsComponent: React.FC = () => {
     // Add more projects as needed
   ];
 
-  const hoverEffect = (isHovered: boolean, index: number | null) => {
-    // Implement hover effect if needed
+  const hoverEffect = (isHovered: boolean) => {
+    if (isHovered) {
+      // Set project opacity to 1 (fully opaque)
+    } else {
+      // Set project opacity to a lower value (e.g., 0.7)
+    }
   };
-
   return (
     <div>
       <MyNavbar /> {/* Adding the navbar here */}
@@ -137,7 +135,7 @@ const ProjectsComponent: React.FC = () => {
           </BackgroundImage>
           <Projects>
             {projects.map((project, index) => (
-              <Project key={index} onMouseEnter={() => hoverEffect(true, index)} onMouseLeave={() => hoverEffect(false, index)}>
+              <Project key={index} onMouseEnter={() => hoverEffect(true)} onMouseLeave={() => hoverEffect(false)}>
                 <ProjectImage src={project.image} alt={project.title} className="project-image" />
                 <ProjectDetails>
                   <ProjectTitle>{project.title}</ProjectTitle>
